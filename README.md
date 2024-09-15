@@ -21,10 +21,10 @@ Academic Critique is a comprehensive platform designed to provide students and e
 
 python3 -m venv .venv
 
-python3 is the Python Interpreter you want to use
--m is a flag that says I would like to run a module as a script
-venv is the built in module used to creating virtual environments
-.venv is the virtual environment name I would like to have (convention)
+- python3 is the Python Interpreter you want to use
+- -m is a flag that says I would like to run a module as a script
+- venv is the built in module used to creating virtual environments
+- .venv is the virtual environment name I would like to have (convention)
 
 3rd - Install all the dependencies
 
