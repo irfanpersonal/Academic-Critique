@@ -1,0 +1,24 @@
+export const educatorDepartments = [
+    "MATHEMATICS",
+    "SCIENCE",
+    "ENGLISH_LANGUAGE_AND_LITERATURE",
+    "SOCIAL_STUDIES",
+    "ARTS",
+    "PHYSICAL_EDUCATION",
+    "COMPUTER_SCIENCE",
+    "BUSINESS_AND_ECONOMICS",
+    "FOREIGN_LANGUAGES",
+    "SPECIAL_EDUCATION",
+    "HEALTH_AND_WELLNESS",
+    "ENGINEERING",
+    "HUMANITIES",
+    "LIBRARY_SCIENCES",
+    "ENVIRONMENTAL_STUDIES"
+];
+  
+export const educatorStatuses = [
+    "ACTIVE",
+    "INACTIVE",
+    "ON_LEAVE",
+    "RETIRED"
+];  

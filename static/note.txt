@@ -1,0 +1,20 @@
+The default/standardized way to serve static files in your Flask Application is by 
+using the "static" folder in the root of your Python project. You can change this 
+by adding the keyword argument of "static_folder" during initialization of Flask.
+An example of how this looks/works
+
+static 
+    html
+        index.html
+    css
+        index.css
+    uploads
+        pfp.png
+
+And you can now access them like so
+
+Create React App
+---------------------------------------
+localhost:3000/static/html/index.html
+localhost:3000/static/css/index.css
+localhost:3000/static/uploads/pfp.png

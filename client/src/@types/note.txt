@@ -1,0 +1,4 @@
+It's a common practice to place all your type declarations in a folder 
+named @types within the src directory of your project. This convention 
+enhances both development and maintainability, as it keeps type declarations 
+organized and makes them easy to navigate and update.
