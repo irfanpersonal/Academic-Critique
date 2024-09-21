@@ -30,6 +30,10 @@ python3 -m venv .venv
 
 pip install -r requirements.txt
 
+Note - If you get an error during the install about a "pkg-config" not being found simply run the following command
+
+brew install pkg-config
+
 4th - Now create a .env file in the root of your entire project with the following key value pairs: FLASK_ENV, DATABASE_URL, JWT_SECRET, JWT_LIFETIME, SENDGRID_API_KEY, and SENDGRID_VERIFIED_SENDER
 
 Where FLASK_ENV can be set to either "development" or "production"
